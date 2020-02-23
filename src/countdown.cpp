@@ -19,7 +19,7 @@
 
 using namespace countdown;
 
-Countdown* countdown::NewCountdown(uint32_t ms = 0) {
+Countdown* countdown::NewCountdown(uint32_t ms) {
     return new Countdown(ms);
 }
 
