@@ -23,6 +23,6 @@ Countdown* countdown::NewCountdown(uint32_t ms) {
     return new Countdown(ms);
 }
 
-extern "C" bool mgos_countdown_init(void) {
+extern "C" bool mgos_mos_contrib_countdown_init(void) {
     return true;
 }
