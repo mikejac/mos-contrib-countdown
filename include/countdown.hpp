@@ -15,7 +15,7 @@
  *******************************************************************************/
 
 #ifndef MOS_CONTRIB_COUNTDOWN_H_
-#define MOS_CONTRIV_COUNTDOWN_H_
+#define MOS_CONTRIB_COUNTDOWN_H_
 
 #include "mgos.h"
 
